@@ -4,11 +4,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/runner2"
-                tools:context=".MainActivity">
+                tools:context=".LoginActivity">
     <EditText
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/userName"
+            android:id="@+id/username"
             android:layout_marginTop="79dp" android:layout_alignParentTop="true"
             android:autoText="false" android:editable="true" android:hint="username"
             />
@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
-            android:id="@+id/password" android:layout_below="@+id/userName" android:layout_centerHorizontal="true"
+            android:id="@+id/password" android:layout_below="@+id/username" android:layout_centerHorizontal="true"
             android:layout_marginTop="35dp" android:hint="password"/>
     <Button
             android:layout_width="fill_parent"
