@@ -65,13 +65,16 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         ParseUser currentUser = ParseUser.getCurrentUser();
         if (currentUser != null) {
             if(currentUser.getUsername().equals(userName)){
+                Toast.makeText(this, userName + " already logged in", Toast.LENGTH_SHORT).show();
                 startActivity(homeScreenIntent);
             } else {
                 ParseUser.logOut();
                 logInInParse();
+                Toast.makeText(this, userName + " is not registered", Toast.LENGTH_SHORT).show();
             }
         } else {
             logInInParse();
+            Toast.makeText(this, userName + " is successfully logged in", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -85,6 +88,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 //                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                     startActivity(homeScreenIntent);
                 } else {
+                    startActivity(registerScreenIntent);
                     // Signup failed. Look at the ParseException to see what happened.
                 }
             }
