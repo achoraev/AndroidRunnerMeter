@@ -19,13 +19,13 @@ public class StartActivity extends Activity {
         setContentView(R.layout.main);
     }
 
-    private void ParseObjectInitialize() {
+    protected void ParseObjectInitialize() {
         ParseObject testObject = new ParseObject("RunnerObject");
-        testObject.put("foo", "bar");
+        testObject.put("foo", "test");
         testObject.saveInBackground();
     }
 
-    private void ParseInitialize() {
+    protected void ParseInitialize() {
         Parse.enableLocalDatastore(this);
         Parse.initialize(this, "qRfCcjHNsMi4Q2uDBma1npkkHW8Uoj7hiZqDLbHN", "aYeD0yfzCYfKtKQLxs1I6aMwODsR3iB5pfvyE8mx");
     }
