@@ -6,6 +6,15 @@
         <option name="UPDATE_PROPERTY_FILES" value="true" />
       </configuration>
     </facet>
+    <facet type="IvyIDEA" name="IvyIDEA">
+      <configuration ivyFile="$MODULE_DIR$/ivy.xml" useProjectSettings="true" useCustomIvySettings="false" ivySettingsFile="" onlyResolveSelectedConfigs="false">
+        <propertiesSettings>
+          <propertiesFiles includeProjectLevelPropertiesFiles="true">
+            <fileName>C:\DiskD\Projects\Runner\ivy.xml</fileName>
+          </propertiesFiles>
+        </propertiesSettings>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -15,6 +24,37 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="libs" level="project" />
+    <orderEntry type="library" exported="" name="libs" level="project" />
+    <orderEntry type="module-library">
+      <library name="IvyIDEA">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/junit/junit/jars/junit-4.11.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.google.maps/google-maps-services/jars/google-maps-services-0.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.squareup.okhttp/okhttp/jars/okhttp-2.0.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.squareup.okio/okio/jars/okio-1.0.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/junit/junit/javadocs/junit-4.11-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.hamcrest/hamcrest-core/javadocs/hamcrest-core-1.3-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.google.maps/google-maps-services/javadocs/google-maps-services-0.1.1-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.google.code.gson/gson/javadocs/gson-2.3-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.squareup.okhttp/okhttp/javadocs/okhttp-2.0.0-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.squareup.okio/okio/javadocs/okio-1.0.0-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/joda-time/joda-time/javadocs/joda-time-2.4-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/junit/junit/sources/junit-4.11-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.hamcrest/hamcrest-core/sources/hamcrest-core-1.3-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.google.maps/google-maps-services/sources/google-maps-services-0.1.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.google.code.gson/gson/sources/gson-2.3-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.squareup.okhttp/okhttp/sources/okhttp-2.0.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.squareup.okio/okio/sources/okio-1.0.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/joda-time/joda-time/sources/joda-time-2.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
