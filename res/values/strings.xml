@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Runner Meter</string>
-    <string name="enterBtn"><![CDATA[ENTER -->]]></string>
+    <string name="enterBtn">ENTER --></string>
 </resources>

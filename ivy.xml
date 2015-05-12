@@ -26,6 +26,5 @@
     </configurations>
     <dependencies>
         <dependency org="junit" name="junit" rev="4.11" />
-        <dependency org="com.google.maps" name="google-maps-services" rev="0.1.1"/>
     </dependencies>
 </ivy-module>
