@@ -7,10 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
-
-import com.parse.ParseException;
 
 /**
  * Created by angelr on 08-May-15.
@@ -79,10 +78,10 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
 
     private boolean isValidInput(String userName, String passWord) {
         if(2 > userName.length() || userName.length() > 15){
-            Toast.makeText(this, "Username must be between 2 and 15 symbols!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.usernameValidation), Toast.LENGTH_SHORT).show();
             return false;
         } else if (2 > passWord.length() || passWord.length() > 15){
-            Toast.makeText(this, "Username must be between 2 and 15 symbols!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.passValidation), Toast.LENGTH_SHORT).show();
             return false;
         }
         return true;

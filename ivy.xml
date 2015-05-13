@@ -26,5 +26,6 @@
     </configurations>
     <dependencies>
         <dependency org="junit" name="junit" rev="4.11" />
+        <dependency org="com.parse.bolts" name="bolts-android" rev="1.+"/>
     </dependencies>
 </ivy-module>

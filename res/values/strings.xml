@@ -2,4 +2,7 @@
 <resources>
     <string name="app_name">Runner Meter</string>
     <string name="enterBtn">ENTER --></string>
+    <string name="apiKey">AIzaSyAo2mY35HY7RjN_UdCIBdHjzkqxzsG4uhs</string>
+    <string name="usernameValidation">Username must be between 2 and 15 symbols!</string>
+    <string name="passValidation">Password must be between 2 and 15 symbols!</string>
 </resources>
