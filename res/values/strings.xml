@@ -3,8 +3,8 @@
     <string name="app_name">Runner Meter</string>
     <string name="enterBtn">ENTER --></string>
     <string name="apiKey">AIzaSyAo2mY35HY7RjN_UdCIBdHjzkqxzsG4uhs</string>
-    <string name="usernameValidation">Username must be between 2 and 15 symbols!</string>
-    <string name="passValidation">Password must be between 2 and 15 symbols!</string>
+    <string name="usernameValidation">Username must be between 3 and 15 symbols!</string>
+    <string name="passValidation">Password must be between 3 and 15 symbols!</string>
     <string name="successfullyRegistered">is successfully registered!</string>
     <string name="emailContainsDot">e-mail must contain @</string>
     <string name="mailValidation">e-mail must be between 3 and 20 symbols!</string>
@@ -16,4 +16,8 @@
     <string name="appID">qRfCcjHNsMi4Q2uDBma1npkkHW8Uoj7hiZqDLbHN</string>
     <string name="clientKey">aYeD0yfzCYfKtKQLxs1I6aMwODsR3iB5pfvyE8mx</string>
     <string name="welcomeRunners">Welcome Runners</string>
+    <string name="guestBtn">As Guest</string>
+    <string name="registerBtn">Register</string>
+    <string name="loginBtn">Login</string>
+    <string name="notSamePass">Passwords are not same!</string>
 </resources>

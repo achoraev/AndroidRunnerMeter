@@ -10,9 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
-import com.parse.ParseException;
-import com.parse.ParseUser;
-import com.parse.SignUpCallback;
 
 import java.text.MessageFormat;
 
@@ -65,11 +62,13 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
             eMail = emailField.getText().toString();
 
             if (isValidUsername(this, userName) && isValidPassword(this, passWord) &&
-                    isValidEmail(this, eMail) && passWord.equals(confirmPassword)) {
-                registerOnParse(userName, passWord, eMail);
-                homeScreenIntent = new Intent(this, LoginActivity.class);
+                    isValidEmail(this, eMail) && isConfirmedPassword(this, passWord, confirmPassword)) {
+                ParseCommon.registerOnParse(userName, passWord, eMail);
+                homeScreenIntent = new Intent(this, HomeActivity.class);
+                homeScreenIntent.putExtra("username", userName);
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 Toast.makeText(this, MessageFormat.format("{0} {1}", userName, getString(R.string.successfullyRegistered)), Toast.LENGTH_SHORT).show();
+                ParseCommon.logInInParse(userName, passWord);
                 startActivity(homeScreenIntent);
             } else {
                 Toast.makeText(this, getString(R.string.notRegistered), Toast.LENGTH_SHORT).show();
@@ -79,23 +78,5 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
             registerScreenIntent = new Intent(this, RegisterActivity.class);
             startActivity(registerScreenIntent);
         }
-    }
-
-    private void registerOnParse(String userName, String passWord, String eMail) {
-        ParseUser user = new ParseUser();
-        user.setUsername(userName);
-        user.setPassword(passWord);
-        user.setEmail(eMail);
-
-        user.signUpInBackground(new SignUpCallback() {
-            public void done(ParseException e) {
-                if (e == null) {
-                    // Hooray! Let them use the app now.
-                } else {
-                    // Sign up didn't succeed. Look at the ParseException
-                    // to figure out what went wrong
-                }
-            }
-        });
     }
 }

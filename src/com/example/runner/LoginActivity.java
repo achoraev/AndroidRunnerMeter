@@ -10,8 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
-import com.parse.LogInCallback;
-import com.parse.ParseException;
 import com.parse.ParseUser;
 
 /**
@@ -64,7 +62,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
             userName = username.getText().toString();
             passWord = password.getText().toString();
 
-            isUserLoggedIn(userName);
+            isUserLoggedIn(userName, passWord);
 
         } else if (v.getId() == R.id.guestBtn){
             homeScreenIntent = new Intent(this, HomeActivity.class);
@@ -74,7 +72,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         }
     }
 
-    private void isUserLoggedIn(String userName) {
+    private void isUserLoggedIn(String userName, String passWord) {
         loginScreenIntent = new Intent(this, LoginActivity.class);
         ParseUser currentUser = ParseUser.getCurrentUser();
         if (currentUser != null) {
@@ -84,28 +82,11 @@ public class LoginActivity extends Activity implements View.OnClickListener {
             } else {
                 ParseUser.logOut();
                 Toast.makeText(this, userName + getString(R.string.notRegister), Toast.LENGTH_SHORT).show();
-                logInInParse();
+                ParseCommon.logInInParse(userName, passWord);
             }
         } else {
             Toast.makeText(this, userName + getString(R.string.successLoggedIn), Toast.LENGTH_SHORT).show();
-            logInInParse();
+            ParseCommon.logInInParse(userName, passWord);
         }
-    }
-
-    private void logInInParse() {
-        ParseUser.logInInBackground(userName, passWord, new LogInCallback() {
-            public void done(ParseUser user, ParseException e) {
-                if (user != null) {
-//                    homeScreenIntent.putExtra("username", userName);
-//                    homeScreenIntent.putExtra("password", passWord);
-////                            Toast.makeText(this, "Welcome " + userName, Toast.LENGTH_SHORT).show();
-//                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-                    startActivity(homeScreenIntent);
-                } else {
-                    startActivity(registerScreenIntent);
-                    // Signup failed. Look at the ParseException to see what happened.
-                }
-            }
-        });
     }
 }

@@ -1,46 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
-    <RelativeLayout android:id="@+id/screenLayout"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/runner2">
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/screenLayout"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/runner2"
                     tools:context=".LoginActivity">
         <EditText
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="fill_parent"
                 android:id="@+id/username"
                 android:layout_marginTop="79dp" android:layout_alignParentTop="true"
                 android:autoText="false" android:editable="true" android:hint="username"
                 />
         <EditText
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="fill_parent"
                 android:inputType="textPassword"
                 android:ems="10"
-                android:id="@+id/password" android:layout_below="@+id/username" android:layout_centerHorizontal="true"
-                android:layout_marginTop="35dp" android:hint="password"/>
+                android:id="@+id/password"
+                android:layout_marginTop="35dp"
+                android:layout_below="@+id/username"
+                android:hint="password"/>
         <Button
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Login"
-                android:id="@+id/loginBtn" android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+                android:layout_height="fill_parent"
+                android:text="@string/loginBtn"
+                android:layout_below="@+id/password"
+                android:layout_marginTop="35dp"
+                android:id="@+id/loginBtn"/>
         <Button
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Register"
-                android:id="@+id/registerBtn" android:layout_below="@+id/loginBtn"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="35dp"/>
+                android:layout_height="fill_parent"
+                android:text="@string/registerBtn"
+                android:layout_marginTop="35dp"
+                android:id="@+id/registerBtn" android:layout_below="@+id/loginBtn"/>
         <Button
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="As Guest"
-                android:id="@+id/guestBtn" android:layout_below="@+id/registerBtn"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="35dp"/>
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/registerBtn"
+                android:layout_marginTop="35dp"
+                android:text="@string/guestBtn"
+                android:id="@+id/guestBtn"/>
     </RelativeLayout>
 </ScrollView>
