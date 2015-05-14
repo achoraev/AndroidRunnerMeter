@@ -1,11 +1,14 @@
 package com.example.runner;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 import com.parse.LogInCallback;
 import com.parse.ParseException;
@@ -15,6 +18,7 @@ import com.parse.ParseUser;
  * Created by angelr on 08-May-15.
  */
 public class LoginActivity extends Activity implements View.OnClickListener {
+    public RelativeLayout layout;
     public EditText username, password;
     public Button loginBtn, registerBtn, guestBtn;
     public String userName;
@@ -28,6 +32,8 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
+        Context context = getApplicationContext();
+        layout = (RelativeLayout) findViewById(R.id.screenLayout);
         username = (EditText) findViewById(R.id.username);
         password = (EditText) findViewById(R.id.password);
 
@@ -37,6 +43,14 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         loginBtn.setOnClickListener(this);
         registerBtn.setOnClickListener(this);
         guestBtn.setOnClickListener(this);
+        // to hide keyboard
+        layout.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent ev) {
+                Utility.hideKeyboard(view, context);
+                return false;
+            }
+        });
     }
 
     @Override
@@ -54,7 +68,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 
         } else if (v.getId() == R.id.guestBtn){
             homeScreenIntent = new Intent(this, HomeActivity.class);
-            Toast.makeText(this, "Welcome guest", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.welcome), Toast.LENGTH_SHORT).show();
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             startActivity(homeScreenIntent);
         }
@@ -65,16 +79,16 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         ParseUser currentUser = ParseUser.getCurrentUser();
         if (currentUser != null) {
             if(currentUser.getUsername().equals(userName)){
-                Toast.makeText(this, userName + " already logged in", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, userName + getString(R.string.allreadyLoggedIn), Toast.LENGTH_SHORT).show();
                 startActivity(homeScreenIntent);
             } else {
                 ParseUser.logOut();
+                Toast.makeText(this, userName + getString(R.string.notRegister), Toast.LENGTH_SHORT).show();
                 logInInParse();
-                Toast.makeText(this, userName + " is not registered", Toast.LENGTH_SHORT).show();
             }
         } else {
+            Toast.makeText(this, userName + getString(R.string.successLoggedIn), Toast.LENGTH_SHORT).show();
             logInInParse();
-            Toast.makeText(this, userName + " is successfully logged in", Toast.LENGTH_SHORT).show();
         }
     }
 

@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
@@ -14,6 +13,10 @@ import android.widget.Toast;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
+
+import java.text.MessageFormat;
+
+import static com.example.runner.Validation.*;
 
 /**
  * Created by angelr on 08-May-15.
@@ -24,6 +27,7 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
     public Button registerBtn;
     public String userName;
     public String passWord;
+    public String confirmPassword;
     public String eMail;
     Intent homeScreenIntent;
     Intent registerScreenIntent;
@@ -33,6 +37,7 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register);
 
+        Context context = getApplicationContext();
         layout = (RelativeLayout) findViewById(R.id.screenLayout);
         username = (EditText) findViewById(R.id.username);
         password = (EditText) findViewById(R.id.password);
@@ -41,11 +46,11 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
 
         registerBtn = (Button) findViewById(R.id.registerBtn);
         registerBtn.setOnClickListener(this);
+        // to hide keyboard
         layout.setOnTouchListener(new View.OnTouchListener(){
             @Override
-            public boolean onTouch(View view, MotionEvent ev)
-            {
-                hideKeyboard(view);
+            public boolean onTouch(View view, MotionEvent ev) {
+                Utility.hideKeyboard(view, context);
                 return false;
             }
         });
@@ -56,29 +61,24 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
         try {
             userName = username.getText().toString();
             passWord = password.getText().toString();
+            confirmPassword = confirmPass.getText().toString();
             eMail = emailField.getText().toString();
 
-            if (isValidUsername(userName) && isValidPassword(passWord) && isValidEmail(eMail)) {
+            if (isValidUsername(this, userName) && isValidPassword(this, passWord) &&
+                    isValidEmail(this, eMail) && passWord.equals(confirmPassword)) {
                 registerOnParse(userName, passWord, eMail);
                 homeScreenIntent = new Intent(this, LoginActivity.class);
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-                Toast.makeText(this, (getString(R.string.successfullyRegistered, userName)), Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, MessageFormat.format("{0} {1}", userName, getString(R.string.successfullyRegistered)), Toast.LENGTH_SHORT).show();
                 startActivity(homeScreenIntent);
             } else {
-                Toast.makeText(this, "You are not registered!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, getString(R.string.notRegistered), Toast.LENGTH_SHORT).show();
             }
         } catch (Exception e) {
             Toast.makeText(this, userName + " not registered" + e.getMessage(), Toast.LENGTH_SHORT).show();
             registerScreenIntent = new Intent(this, RegisterActivity.class);
             startActivity(registerScreenIntent);
         }
-    }
-
-    // hide keyboard
-    protected void hideKeyboard(View view)
-    {
-        InputMethodManager in = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-        in.hideSoftInputFromWindow(view.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
     }
 
     private void registerOnParse(String userName, String passWord, String eMail) {
@@ -97,32 +97,5 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
                 }
             }
         });
-    }
-
-    private boolean isValidUsername(String userName) {
-        if(2 > userName.length() || userName.length() > 15){
-            Toast.makeText(this, getString(R.string.usernameValidation), Toast.LENGTH_SHORT).show();
-            return false;
-        }
-        return true;
-    }
-
-    private boolean isValidPassword(String passWord) {
-        if (2 > passWord.length() || passWord.length() > 15){
-            Toast.makeText(this, getString(R.string.passValidation), Toast.LENGTH_SHORT).show();
-            return false;
-        }
-        return true;
-    }
-
-    private boolean isValidEmail(String mail) {
-        if(mail.indexOf("@") == -1){
-            Toast.makeText(this, getString(R.string.emailContainsDot), Toast.LENGTH_SHORT).show();
-            return false;
-        } else if (3 > mail.length() || mail.length() > 20){
-            Toast.makeText(this, getString(R.string.mailValidation), Toast.LENGTH_SHORT).show();
-            return false;
-        }
-        return true;
     }
 }

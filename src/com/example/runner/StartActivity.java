@@ -36,7 +36,7 @@ public class StartActivity extends Activity implements View.OnClickListener {
 
     protected void ParseInitialize() {
         Parse.enableLocalDatastore(this);
-        Parse.initialize(this, "qRfCcjHNsMi4Q2uDBma1npkkHW8Uoj7hiZqDLbHN", "aYeD0yfzCYfKtKQLxs1I6aMwODsR3iB5pfvyE8mx");
+        Parse.initialize(this, getString(R.string.appID), getString(R.string.clientKey));
     }
 
     @Override
@@ -45,6 +45,6 @@ public class StartActivity extends Activity implements View.OnClickListener {
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         startActivity(loginScreenIntent);
 
-        Toast.makeText(this, "Welcome Runners", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, getString(R.string.welcomeRunners), Toast.LENGTH_SHORT).show();
     }
 }
