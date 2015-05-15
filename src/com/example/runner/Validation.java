@@ -8,7 +8,7 @@ import android.widget.Toast;
  */
 public class Validation {
     public static boolean isValidUsername(Context context, String userName) {
-        if(2 < userName.length() && userName.length() < 15){
+        if(userName.length() > 2 && userName.length() < 15){
             return true;
         }
         Toast.makeText(context, context.getString(R.string.usernameValidation), Toast.LENGTH_SHORT).show();
@@ -16,7 +16,7 @@ public class Validation {
     }
 
     public static boolean isValidPassword(Context context, String passWord) {
-        if (2 < passWord.length() && passWord.length() < 15){
+        if (passWord.length() > 2 && passWord.length() < 15){
             return true;
         }
         Toast.makeText(context, context.getString(R.string.passValidation), Toast.LENGTH_SHORT).show();
@@ -24,14 +24,16 @@ public class Validation {
     }
 
     public static boolean isValidEmail(Context context, String mail) {
-        if(mail.indexOf("@") == -1){
-            Toast.makeText(context, context.getString(R.string.emailContainsDot), Toast.LENGTH_SHORT).show();
-            return false;
-        } else if (2 > mail.length() && mail.length() > 20){
+        if(!mail.contains("@") || !mail.contains(".")){
+            Toast.makeText(context, context.getString(R.string.invalidMail), Toast.LENGTH_SHORT).show();
+        } else if (mail.length() < 2 || mail.length() > 20){
             Toast.makeText(context, context.getString(R.string.mailValidation), Toast.LENGTH_SHORT).show();
-            return false;
         }
-        return true;
+
+        if(mail.contains("@") && mail.contains(".") && (mail.length() > 2 && mail.length() < 20)){
+            return true;
+        }
+        return false;
     }
 
     public static boolean isConfirmedPassword(Context context, String passWord, String confirmPassword) {

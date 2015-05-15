@@ -12,6 +12,8 @@ import android.widget.RelativeLayout;
 import android.widget.Toast;
 import com.parse.ParseUser;
 
+import java.text.MessageFormat;
+
 /**
  * Created by angelr on 08-May-15.
  */
@@ -66,9 +68,13 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 
         } else if (v.getId() == R.id.guestBtn){
             homeScreenIntent = new Intent(this, HomeActivity.class);
+            homeScreenIntent.putExtra("username", "Guest");
             Toast.makeText(this, getString(R.string.welcome), Toast.LENGTH_SHORT).show();
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             startActivity(homeScreenIntent);
+        } else if (v.getId() == R.id.facebookBtn) {
+
+
         }
     }
 
@@ -77,16 +83,22 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         ParseUser currentUser = ParseUser.getCurrentUser();
         if (currentUser != null) {
             if(currentUser.getUsername().equals(userName)){
-                Toast.makeText(this, userName + getString(R.string.allreadyLoggedIn), Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, userName + getString(R.string.successLoggedIn), Toast.LENGTH_SHORT).show();
                 startActivity(homeScreenIntent);
             } else {
                 ParseUser.logOut();
-                Toast.makeText(this, userName + getString(R.string.notRegister), Toast.LENGTH_SHORT).show();
-                ParseCommon.logInInParse(userName, passWord);
+                redirectToRegisterActivity(userName, passWord);
             }
         } else {
-            Toast.makeText(this, userName + getString(R.string.successLoggedIn), Toast.LENGTH_SHORT).show();
-            ParseCommon.logInInParse(userName, passWord);
+            redirectToRegisterActivity(userName, passWord);
         }
+    }
+
+    private void redirectToRegisterActivity(String userName, String passWord) {
+        Toast.makeText(this, MessageFormat.format("{0} {1}", userName, getString(R.string.notRegister)), Toast.LENGTH_SHORT).show();
+        registerScreenIntent = new Intent(this, RegisterActivity.class);
+        registerScreenIntent.putExtra("username", userName);
+        registerScreenIntent.putExtra("password", passWord);
+        startActivity(registerScreenIntent);
     }
 }

@@ -41,10 +41,15 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
         confirmPass = (EditText) findViewById(R.id.confirmPass);
         emailField = (EditText) findViewById(R.id.emailInput);
 
+        if (getIntent().getStringExtra("username") != null) {
+            username.setText(getIntent().getStringExtra("username"));
+            password.setText(getIntent().getStringExtra("password"));
+        }
+
         registerBtn = (Button) findViewById(R.id.registerBtn);
         registerBtn.setOnClickListener(this);
         // to hide keyboard
-        layout.setOnTouchListener(new View.OnTouchListener(){
+        layout.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent ev) {
                 Utility.hideKeyboard(view, context);
@@ -55,28 +60,33 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        try {
-            userName = username.getText().toString();
-            passWord = password.getText().toString();
-            confirmPassword = confirmPass.getText().toString();
-            eMail = emailField.getText().toString();
+        userName = username.getText().toString();
+        passWord = password.getText().toString();
+        confirmPassword = confirmPass.getText().toString();
+        eMail = emailField.getText().toString();
 
-            if (isValidUsername(this, userName) && isValidPassword(this, passWord) &&
-                    isValidEmail(this, eMail) && isConfirmedPassword(this, passWord, confirmPassword)) {
-                ParseCommon.registerOnParse(userName, passWord, eMail);
+        if (isValidUsername(this, userName) && isValidPassword(this, passWord) &&
+                isConfirmedPassword(this, passWord, confirmPassword) && isValidEmail(this, eMail)) {
+            try {
                 homeScreenIntent = new Intent(this, HomeActivity.class);
                 homeScreenIntent.putExtra("username", userName);
-                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                ParseCommon.registerOnParse(userName, passWord, eMail, this);
                 Toast.makeText(this, MessageFormat.format("{0} {1}", userName, getString(R.string.successfullyRegistered)), Toast.LENGTH_SHORT).show();
-                ParseCommon.logInInParse(userName, passWord);
-                startActivity(homeScreenIntent);
-            } else {
-                Toast.makeText(this, getString(R.string.notRegistered), Toast.LENGTH_SHORT).show();
+            } catch (Exception e) {
+                Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                registerScreenIntent = new Intent(this, RegisterActivity.class);
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                startActivity(registerScreenIntent);
             }
-        } catch (Exception e) {
-            Toast.makeText(this, userName + " not registered" + e.getMessage(), Toast.LENGTH_SHORT).show();
-            registerScreenIntent = new Intent(this, RegisterActivity.class);
-            startActivity(registerScreenIntent);
+            try {
+                ParseCommon.logInInParse(userName, passWord, this);
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                startActivity(homeScreenIntent);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        } else {
+//                Toast.makeText(this, getString(R.string.notRegistered), Toast.LENGTH_SHORT).show();
         }
     }
 }

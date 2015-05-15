@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-import com.parse.Parse;
 import com.parse.ParseObject;
 
 public class StartActivity extends Activity implements View.OnClickListener {
@@ -17,8 +16,7 @@ public class StartActivity extends Activity implements View.OnClickListener {
      */
     @Override
     public void onCreate(Bundle savedInstanceState) {
-
-        ParseInitialize();
+        ParseCommon.ParseInitialize(this);
 //        ParseObjectInitialize();
 
         super.onCreate(savedInstanceState);
@@ -32,11 +30,6 @@ public class StartActivity extends Activity implements View.OnClickListener {
         ParseObject testObject = new ParseObject("RunnerObject");
         testObject.put("foo", "test");
         testObject.saveInBackground();
-    }
-
-    protected void ParseInitialize() {
-        Parse.enableLocalDatastore(this);
-        Parse.initialize(this, getString(R.string.appID), getString(R.string.clientKey));
     }
 
     @Override
