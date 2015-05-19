@@ -36,183 +36,53 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.example.runner" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ea899e-ab7e-448b-807c-812591ad1132" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/ParseLoginUI.iml" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\allclasses-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\allclasses-noframe.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ConfigCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\CountCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\DeleteCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\FindCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\FunctionCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\GetCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\GetDataCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\LocationCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\LogInCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\LogOutCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\Parse.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseACL.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseAnalytics.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseAnonymousUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseClassName.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseCloud.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseConfig.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseException.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseFile.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseGeoPoint.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseImageView.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseInstallation.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseObject.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParsePush.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParsePushBroadcastReceiver.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseQuery.CachePolicy.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseQuery.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseQueryAdapter.OnQueryLoadListener.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseQueryAdapter.QueryFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseQueryAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseRelation.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseRole.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseSession.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseTwitterUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseUser.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ProgressCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\PushService.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\RefreshCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\RequestPasswordResetCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\SaveCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\SendCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\SignUpCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ConfigCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\CountCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\DeleteCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\FindCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\FunctionCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\GetCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\GetDataCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\LocationCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\LogInCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\LogOutCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\Parse.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseACL.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseAnalytics.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseAnonymousUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseClassName.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseCloud.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseConfig.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseException.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseFile.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseGeoPoint.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseImageView.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseInstallation.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseObject.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParsePush.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParsePushBroadcastReceiver.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseQuery.CachePolicy.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseQuery.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseQueryAdapter.OnQueryLoadListener.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseQueryAdapter.QueryFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseQueryAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseRelation.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseRole.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseSession.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseTwitterUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseUser.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ProgressCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\PushService.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\RefreshCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\RequestPasswordResetCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\SaveCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\SendCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\SignUpCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\constant-values.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\deprecated-list.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\help-doc.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\index-all.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\overview-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\package-list" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\resources\background.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\resources\tab.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\resources\titlebar.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\resources\titlebar_end.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\serialized-form.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1.jar.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\allclasses-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\allclasses-noframe.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\com\parse\ParseCrashReporting.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\com\parse\class-use\ParseCrashReporting.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\com\parse\package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\com\parse\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\com\parse\package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\com\parse\package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\constant-values.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\deprecated-list.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\help-doc.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\index-all.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\overview-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\package-list" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\resources\background.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\resources\tab.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\resources\titlebar.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\resources\titlebar_end.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1.jar.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\allclasses-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\allclasses-noframe.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\com\parse\ParseFacebookUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\com\parse\class-use\ParseFacebookUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\com\parse\package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\com\parse\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\com\parse\package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\com\parse\package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\constant-values.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\deprecated-list.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\help-doc.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\index-all.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\overview-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\package-list" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\resources\background.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\resources\tab.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\resources\titlebar.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\resources\titlebar_end.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\allclasses-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\allclasses-noframe.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\com\parse\ParseFacebookUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\com\parse\class-use\ParseFacebookUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\com\parse\package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\com\parse\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\com\parse\package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\com\parse\package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\constant-values.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\deprecated-list.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\help-doc.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\index-all.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\overview-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\package-list" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\resources\background.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\resources\tab.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\resources\titlebar.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\resources\titlebar_end.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1.jar.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\google-play-services.jar.properties" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Runner/Runner.apk" afterPath="$PROJECT_DIR$/out/production/Runner/Runner.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Runner/Runner.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/Runner/Runner.unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/runner/LoginActivity.java" afterPath="$PROJECT_DIR$/src/com/example/runner/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/runner/ParseCommon.java" afterPath="$PROJECT_DIR$/src/com/example/runner/ParseCommon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/runner/RegisterActivity.java" afterPath="$PROJECT_DIR$/src/com/example/runner/RegisterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runner.iml" afterPath="$PROJECT_DIR$/Runner.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="04ea899e-ab7e-448b-807c-812591ad1132" name="Default" comment="adding ParseLogin modul">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/drawable-xxhdpi/com_parse_ui_app_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/drawable-xxhdpi/com_parse_ui_facebook_login_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/drawable-xxhdpi/com_parse_ui_twitter_login_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/gen/com/parse/ui/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/gen/com/parse/ui/Manifest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/src/com/parse/ui/ParseLoginActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/src/com/parse/ui/ParseLoginBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/src/com/parse/ui/ParseLoginConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/src/com/parse/ui/ParseLoginDispatchActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/src/com/parse/ui/ParseLoginFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/src/com/parse/ui/ParseLoginFragmentBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/src/com/parse/ui/ParseLoginHelpFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/.idea/ParseLoginUI.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/src/com/parse/ui/ParseOnLoadingListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/src/com/parse/ui/ParseOnLoginSuccessListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/src/com/parse/ui/ParseSignupFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/gen/com/parse/ui/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/values/colors.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/drawable/com_parse_ui_facebook_login_button_background_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/layout/com_parse_ui_parse_login_app_logo.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/drawable/com_parse_ui_parse_login_button_background_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/layout/com_parse_ui_parse_login_form.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/layout/com_parse_ui_parse_login_fragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/layout-land/com_parse_ui_parse_login_fragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/color/com_parse_ui_parse_login_help_button_label_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/layout/com_parse_ui_parse_login_help_form.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/layout/com_parse_ui_parse_login_help_fragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/layout-land/com_parse_ui_parse_login_help_fragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/layout/com_parse_ui_parse_login_third_party_section.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/layout/com_parse_ui_parse_signup_form.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/layout/com_parse_ui_parse_signup_fragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/layout-land/com_parse_ui_parse_signup_fragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/drawable/com_parse_ui_twitter_login_button_background_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/values/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/project.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Runner.iws" />
@@ -268,7 +138,7 @@
       <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/runner/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74791914">
+            <state vertical-scroll-proportion="1.1232142">
               <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
               <folding />
             </state>
@@ -825,7 +695,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431701331131</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adding ParseLogin modul">
+      <created>1432039408283</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1432039408283</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -839,7 +715,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -849,7 +725,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32336017" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32336017" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IvyIDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32873562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -896,7 +772,8 @@
     <MESSAGE value="refactor validation and add scrollers and hide keyboard" />
     <MESSAGE value="refactor Parse methods and add on back button log out" />
     <MESSAGE value="fix register and login" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix register and login" />
+    <MESSAGE value="adding ParseLogin modul" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding ParseLogin modul" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1274,7 +1151,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/runner/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74791914">
+        <state vertical-scroll-proportion="1.1232142">
           <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
           <folding />
         </state>
