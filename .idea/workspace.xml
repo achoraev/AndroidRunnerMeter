@@ -11,9 +11,6 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
-        <devices>
-          <device id="Nexus 5" />
-        </devices>
         <target>android-19</target>
       </config>
     </shared>
@@ -39,19 +36,183 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.example.runner" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ea899e-ab7e-448b-807c-812591ad1132" name="Default" comment="refactor Parse methods and add on back button log out">
+    <list default="true" id="04ea899e-ab7e-448b-807c-812591ad1132" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseLoginUI/ParseLoginUI.iml" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ConfigCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\CountCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\DeleteCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\FindCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\FunctionCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\GetCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\GetDataCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\LocationCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\LogInCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\LogOutCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\Parse.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseACL.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseAnalytics.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseAnonymousUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseClassName.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseCloud.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseConfig.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseException.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseFile.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseGeoPoint.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseImageView.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseInstallation.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseObject.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParsePush.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParsePushBroadcastReceiver.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseQuery.CachePolicy.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseQuery.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseQueryAdapter.OnQueryLoadListener.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseQueryAdapter.QueryFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseQueryAdapter.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseRelation.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseRole.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseSession.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseTwitterUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ParseUser.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\ProgressCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\PushService.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\RefreshCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\RequestPasswordResetCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\SaveCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\SendCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\SignUpCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ConfigCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\CountCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\DeleteCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\FindCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\FunctionCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\GetCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\GetDataCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\LocationCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\LogInCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\LogOutCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\Parse.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseACL.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseAnalytics.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseAnonymousUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseClassName.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseCloud.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseConfig.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseException.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseFile.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseGeoPoint.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseImageView.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseInstallation.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseObject.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParsePush.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParsePushBroadcastReceiver.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseQuery.CachePolicy.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseQuery.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseQueryAdapter.OnQueryLoadListener.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseQueryAdapter.QueryFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseQueryAdapter.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseRelation.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseRole.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseSession.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseTwitterUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ParseUser.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\ProgressCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\PushService.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\RefreshCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\RequestPasswordResetCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\SaveCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\SendCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\class-use\SignUpCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\com\parse\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\package-list" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\resources\background.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\resources\tab.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\resources\titlebar.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\resources\titlebar_end.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\serialized-form.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1-javadoc\stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\Parse-1.9.1.jar.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\com\parse\ParseCrashReporting.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\com\parse\class-use\ParseCrashReporting.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\com\parse\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\com\parse\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\com\parse\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\com\parse\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\package-list" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\resources\background.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\resources\tab.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\resources\titlebar.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\resources\titlebar_end.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1-javadoc\stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseCrashReporting-1.9.1.jar.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\com\parse\ParseFacebookUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\com\parse\class-use\ParseFacebookUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\com\parse\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\com\parse\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\com\parse\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\com\parse\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\package-list" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\resources\background.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\resources\tab.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\resources\titlebar.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\resources\titlebar_end.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV3-1.9.1-javadoc\stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\com\parse\ParseFacebookUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\com\parse\class-use\ParseFacebookUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\com\parse\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\com\parse\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\com\parse\package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\com\parse\package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\package-list" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\resources\background.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\resources\tab.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\resources\titlebar.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\resources\titlebar_end.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1-javadoc\stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\ParseFacebookUtilsV4-1.9.1.jar.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\DiskD\Projects\Runner\libs\google-play-services.jar.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Runner/Runner.apk" afterPath="$PROJECT_DIR$/out/production/Runner/Runner.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Runner/Runner.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/Runner/Runner.unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/runner/HomeActivity.java" afterPath="$PROJECT_DIR$/src/com/example/runner/HomeActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/runner/LoginActivity.java" afterPath="$PROJECT_DIR$/src/com/example/runner/LoginActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/runner/ParseCommon.java" afterPath="$PROJECT_DIR$/src/com/example/runner/ParseCommon.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/runner/RegisterActivity.java" afterPath="$PROJECT_DIR$/src/com/example/runner/RegisterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/runner/StartActivity.java" afterPath="$PROJECT_DIR$/src/com/example/runner/StartActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/runner/Validation.java" afterPath="$PROJECT_DIR$/src/com/example/runner/Validation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/home.xml" afterPath="$PROJECT_DIR$/res/layout/home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/login.xml" afterPath="$PROJECT_DIR$/res/layout/login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runner.iml" afterPath="$PROJECT_DIR$/Runner.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Runner.iws" />
@@ -78,10 +239,8 @@
         <entry file="file://$PROJECT_DIR$/src/com/example/runner/RegisterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
-              <folding>
-                <element signature="e#2740#2782#0" expanded="true" />
-              </folding>
+              <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,72 +249,27 @@
         <entry file="file://$PROJECT_DIR$/src/com/example/runner/ParseCommon.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
-              <folding>
-                <element signature="e#2341#2374#0" expanded="true" />
-                <element signature="e#2376#2413#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StartActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/runner/StartActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33392859">
-              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-              <folding>
-                <element signature="e#1238#1272#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/home.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.551724">
-              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+              <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="48" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/runner/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-              <folding>
-                <element signature="e#2576#2603#0" expanded="true" />
-                <element signature="e#3175#3210#0" expanded="true" />
-                <element signature="e#3669#3700#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.310345">
-              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/runner/HomeActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.74791914">
+              <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -186,20 +300,28 @@
       <list>
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/values/integer.xml" />
-        <option value="$PROJECT_DIR$/ivy.xml" />
         <option value="$PROJECT_DIR$/src/com/example/runner/Utility.java" />
         <option value="$PROJECT_DIR$/res/layout/register.xml" />
         <option value="$PROJECT_DIR$/src/com/example/runner/Validation.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/home.xml" />
         <option value="$PROJECT_DIR$/src/com/example/runner/HomeActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/runner/RegisterActivity.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/login.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/runner/StartActivity.java" />
+        <option value="$PROJECT_DIR$/ivy.xml" />
+        <option value="$PROJECT_DIR$/ParseLoginUI/build.gradle" />
+        <option value="$PROJECT_DIR$/src/com/example/runner/RegisterActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/runner/LoginActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/runner/ParseCommon.java" />
-        <option value="$PROJECT_DIR$/src/com/example/runner/StartActivity.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="NamedScopeManager">
@@ -316,6 +438,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -349,74 +473,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="runner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Runner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Runner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Runner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Runner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Runner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Runner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="ParseLoginUI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EG" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
     <property name="recentsLimit" value="5" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -551,7 +619,7 @@
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="JAR_PATH" value="$PROJECT_DIR$/libs/GooglePlay/google-play-services.jar" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/ParseLoginUI/libs/Parse-1.9.1.jar" />
       <envs />
       <method />
     </configuration>
@@ -751,7 +819,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431615144854</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix register and login">
+      <created>1431701331131</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1431701331131</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -764,37 +838,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18689321" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32336017" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="IvyIDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32336017" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IvyIDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32873562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle View" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18689321" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -820,7 +895,8 @@
     <MESSAGE value="fix register validation" />
     <MESSAGE value="refactor validation and add scrollers and hide keyboard" />
     <MESSAGE value="refactor Parse methods and add on back button log out" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor Parse methods and add on back button log out" />
+    <MESSAGE value="fix register and login" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix register and login" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -833,7 +909,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ivy.xml">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -845,7 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,9 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-          <folding>
-            <element signature="e#2740#2782#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,10 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2576#2603#0" expanded="true" />
-            <element signature="e#3175#3210#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -882,7 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,9 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-          <folding>
-            <element signature="e#2740#2782#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -900,7 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -908,10 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2576#2603#0" expanded="true" />
-            <element signature="e#3175#3210#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -919,7 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -927,9 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-          <folding>
-            <element signature="e#2740#2782#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -937,7 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,47 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2576#2603#0" expanded="true" />
-            <element signature="e#3175#3210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/runner/StartActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/runner/RegisterActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-          <folding>
-            <element signature="e#2740#2782#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/runner/HomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/runner/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2576#2603#0" expanded="true" />
-            <element signature="e#3175#3210#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -993,7 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,9 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-          <folding>
-            <element signature="e#2740#2782#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1011,7 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,10 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="e#2576#2603#0" expanded="true" />
-            <element signature="e#3175#3210#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1030,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,9 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-          <folding>
-            <element signature="e#2740#2782#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1048,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,10 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="e#2576#2603#0" expanded="true" />
-            <element signature="e#3175#3210#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,21 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/Parse-1.9.1-javadoc/com/parse/class-use/Parse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66748464">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ivy.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-19/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33293697">
@@ -1165,9 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36756757">
           <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1186,25 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7859712">
           <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#678#720#0" expanded="true" />
-            <element signature="e#942#981#0" expanded="true" />
-            <element signature="e#1108#1150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18345323">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding>
-            <element signature="e#973#991#0" expanded="true" />
-            <element signature="e#1105#1123#0" expanded="true" />
-            <element signature="e#1701#1740#0" expanded="true" />
-            <element signature="e#1854#1870#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1213,7 +1170,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.551724">
+        <state vertical-scroll-proportion="0.3768473">
           <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
           <folding />
         </state>
@@ -1229,9 +1186,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/runner/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.667063">
           <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,10 +1195,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53846157">
           <caret line="18422" column="9" selection-start-line="18422" selection-start-column="9" selection-end-line="18422" selection-end-column="9" />
-          <folding>
-            <element signature="e#717286#717287#0" expanded="true" />
-            <element signature="e#717324#717325#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1251,52 +1203,80 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.310345">
+        <state vertical-scroll-proportion="0.7906404">
           <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/runner/LoginActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/runner/StartActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <element signature="e#2576#2603#0" expanded="true" />
-            <element signature="e#3175#3210#0" expanded="true" />
-            <element signature="e#3669#3700#0" expanded="true" />
-          </folding>
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/runner/RegisterActivity.java">
+    <entry file="file://$PROJECT_DIR$/ivy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60642093">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ParseUI-Android-master/ParseUI-Android-master/ParseLoginUI/src/com/parse/ui/ParseLoginFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51711714">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
-          <folding>
-            <element signature="e#2740#2782#0" expanded="true" />
-          </folding>
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/runner/ParseCommon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
-          <folding>
-            <element signature="e#2341#2374#0" expanded="true" />
-            <element signature="e#2376#2413#0" expanded="true" />
-          </folding>
+          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/runner/StartActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/runner/RegisterActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33392859">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-          <folding>
-            <element signature="e#1238#1272#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseLoginUI/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseLoginUI/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/runner/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74791914">
+          <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1340,6 +1320,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>libs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1363,11 +1344,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>IvyIDEA|Runner</last-edited>
+          <last-edited>Runner</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -34,7 +34,7 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register);
 
-        Context context = getApplicationContext();
+        final Context context = getApplicationContext();
         layout = (RelativeLayout) findViewById(R.id.screenLayout);
         username = (EditText) findViewById(R.id.username);
         password = (EditText) findViewById(R.id.password);

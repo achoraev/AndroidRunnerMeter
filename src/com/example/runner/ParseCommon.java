@@ -32,7 +32,7 @@ public class ParseCommon {
 //        });
     }
 
-    public static void logInInParse(String userName, String passWord, Context context) {
+    public static void logInInParse(String userName, String passWord, final Context context) {
         ParseUser.logInInBackground(userName, passWord, new LogInCallback() {
             public void done(ParseUser user, ParseException e) {
                 if (user != null) {

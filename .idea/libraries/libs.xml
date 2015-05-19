@@ -3,12 +3,7 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/libs" />
     </CLASSES>
-    <JAVADOC>
-      <root url="file://$PROJECT_DIR$/libs/Parse-1.9.1-javadoc" />
-      <root url="file://$PROJECT_DIR$/libs/ParseCrashReporting-1.9.1-javadoc" />
-      <root url="file://$PROJECT_DIR$/libs/ParseFacebookUtilsV3-1.9.1-javadoc" />
-      <root url="file://$PROJECT_DIR$/libs/ParseFacebookUtilsV4-1.9.1-javadoc" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES />
     <jarDirectory url="file://$PROJECT_DIR$/libs" recursive="false" />
   </library>
